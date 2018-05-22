@@ -1,0 +1,49 @@
+body {
+  font-family: Verdana,Geneva,sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  max-width: 800px;
+  min-widht: 650px
+  margin-left: auto;
+  margin-right: auto;
+}
+.numAndCal-container {
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex : 1; /*item들이 1:1로 container안 넓이 가짐*/
+  justify-content: center;
+}
+
+.num-container {
+  order : 1; /*flex box 우선 정렬*/
+}
+.cal-container {
+  order : 2; /*flex box 나중 정렬*/
+}
+.numButton {
+  padding: 5px 5px 5px 5px;
+  border-color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 15pt;
+}
+
+.calculate{
+  padding: 5px 5px 5px 5px;
+  border-color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 15pt;
+}
+
+.num-container{
+  margin: auto
+
+}
+.cal-container{
+  margin: auto
+
+}

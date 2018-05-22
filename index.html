@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>mini calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script src="js/DOM.js"></script>
+    <script src="js/API.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="input-container">
+        <div id="input">input</div>
+      </div>
+      <div class="clearAndDel-container">
+        <span id="clear">C</span>
+        <span id="delete">Del</span>
+      </div>
+      <div class="numAndCal-container">
+        <div class="num-container">
+          <div>
+            <span class="numButton">1</span>
+            <span class="numButton">2</span>
+            <span class="numButton">3</span>
+          </div>
+          <div>
+            <span class="numButton">4</span>
+            <span class="numButton">5</span>
+            <span class="numButton">6</span>
+          </div>
+          <div>
+            <span class="numButton">7</span>
+            <span class="numButton">8</span>
+            <span class="numButton">9</span>
+          </div>
+          <div>
+            <span class="numButton">0</span>
+            <span class="numButton">.</span>
+            <span id="result">=</span>
+          </div>
+        </div>
+        <div class="cal-container">
+          <div class="calculate">+</div>
+          <div class="calculate">-</div>
+          <div class="calculate">*</div>
+          <div class="calculate">/</div>
+        </div>
+      </div>
+  </body>
+</html>
